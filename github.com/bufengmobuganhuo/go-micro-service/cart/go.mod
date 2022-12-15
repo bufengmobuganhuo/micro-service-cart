@@ -1,4 +1,4 @@
-module github.com/bufengmobuganhuo/go-micro-service/cart
+module github.com/bufengmobuganhuo/micro-service-cart
 
 go 1.17
 
