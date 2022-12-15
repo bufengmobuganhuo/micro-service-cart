@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/bufengmobuganhuo/go-micro-service/cart/domain/repository"
-	service2 "github.com/bufengmobuganhuo/go-micro-service/cart/domain/service"
-	"github.com/bufengmobuganhuo/go-micro-service/cart/handler"
-	cart "github.com/bufengmobuganhuo/go-micro-service/cart/proto/cart"
+	"github.com/bufengmobuganhuo/micro-service-cart/domain/repository"
+	service2 "github.com/bufengmobuganhuo/micro-service-cart/domain/service"
+	"github.com/bufengmobuganhuo/micro-service-cart/handler"
+	cart "github.com/bufengmobuganhuo/micro-service-cart/proto/cart"
 	common "github.com/bufengmobuganhuo/micro-service-common"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/micro/go-micro/v2"

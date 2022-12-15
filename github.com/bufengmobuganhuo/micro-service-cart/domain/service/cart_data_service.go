@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/bufengmobuganhuo/go-micro-service/cart/domain/model"
-	"github.com/bufengmobuganhuo/go-micro-service/cart/domain/repository"
+	"github.com/bufengmobuganhuo/micro-service-cart/domain/model"
+	"github.com/bufengmobuganhuo/micro-service-cart/domain/repository"
 )
 
 type ICartDataService interface {
@@ -62,5 +62,3 @@ func (u *CartDataService) IncrNum(cartId int64, num int64) error {
 func (u *CartDataService) DecrNum(cartId int64, num int64) error {
 	return u.CartRepository.DecrNum(cartId, num)
 }
-
-

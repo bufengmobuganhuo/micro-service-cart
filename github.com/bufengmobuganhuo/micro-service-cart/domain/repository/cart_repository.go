@@ -2,7 +2,7 @@ package repository
 
 import (
 	"errors"
-	"github.com/bufengmobuganhuo/go-micro-service/cart/domain/model"
+	"github.com/bufengmobuganhuo/micro-service-cart/domain/model"
 	"github.com/jinzhu/gorm"
 )
 
@@ -95,5 +95,3 @@ func (u *CartRepository) DecrNum(cartId int64, num int64) error {
 	}
 	return nil
 }
-
-

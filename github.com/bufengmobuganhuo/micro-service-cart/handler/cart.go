@@ -2,9 +2,9 @@ package handler
 
 import (
 	"context"
-	"github.com/bufengmobuganhuo/go-micro-service/cart/domain/model"
-	"github.com/bufengmobuganhuo/go-micro-service/cart/domain/service"
-	cart "github.com/bufengmobuganhuo/go-micro-service/cart/proto/cart"
+	"github.com/bufengmobuganhuo/micro-service-cart/domain/model"
+	"github.com/bufengmobuganhuo/micro-service-cart/domain/service"
+	cart "github.com/bufengmobuganhuo/micro-service-cart/proto/cart"
 	common "github.com/bufengmobuganhuo/micro-service-common"
 )
 
